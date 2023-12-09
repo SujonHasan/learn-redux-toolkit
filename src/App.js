@@ -1,9 +1,12 @@
 import './App.css';
+import AddTodo from "./components/AddTodo";
+import Todos from './components/Todos';
 
 function App() {
   return (
     <div className="App">
-      <h1 className='text-4xl font-bold' >Learn Redux toolkit</h1>
+      <AddTodo></AddTodo>
+      <Todos></Todos>
     </div>
   );
 }
